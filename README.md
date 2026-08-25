@@ -12,3 +12,5 @@ docs/images/*.webp
 ```
 
 还没挂回 document。git-it-write 在 document 上是停着的。
+
+`docs/` 只留用户/站点管理员手册。钩子参考和改主题的稿在 `developer/`，不上 document。
