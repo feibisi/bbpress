@@ -18,6 +18,6 @@ source:
 2. 然后在论坛功能部分确保启用“允许论坛范围搜索”
 
 对于用户搜索论坛，他们需要做的就是在您选择在论坛根目录上显示的布局上方的论坛搜索输入框中添加特定关键字，即论坛索引或话题的新鲜度，或者用户还可以使用 bbPress 搜索小工具搜索论坛。
-![论坛搜索](images/forum-search.webp)
+![论坛搜索](/_images/forum-search.webp)
 搜索特定关键字或多个关键字后，默认情况下搜索结果将与此类似。
-![论坛搜索结果](images/forum-search-results.webp)
+![论坛搜索结果](/_images/forum-search-results.webp)

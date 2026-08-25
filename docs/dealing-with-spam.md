@@ -5,6 +5,7 @@ post_name: dealing-with-spam
 lang: zh
 taxonomy:
   category: [bbpress]
+  post_tag: [bbp-moderate]
 source:
   blog_id: 4
   post_id: 133
@@ -25,7 +26,7 @@ source:
 
 自动垃圾邮件机器人
 下面是一个垃圾邮件机器人的例子，它会留下与此类似的帖子。
-![垃圾邮件用户1](images/spamuser1.webp)
+![垃圾邮件用户1](/_images/spamuser1.webp)
 自动垃圾邮件机器人很可能会执行下面列出的所有操作。
 
 - 放置一个或多个链接到一个或多个站点的业务或服务。Ť他链接可能大量文本来隐藏它不容易被看到。
@@ -40,7 +41,7 @@ source:
 这些通常会自动填写大多数输入字段，并且很容易发现和识别。本指南中列出的一些插件可以轻松处理这些垃圾邮件发送者。
 人类垃圾邮件发送者
 下面是一个人类垃圾邮件发送者的示例，他发布了与此类似的帖子。有些不会像这那么明显，所以主持人决定再做进一步的决定。
-![Gravatar 的垃圾邮件用户](images/spam-user-with-Gravatar.webp)
+![Gravatar 的垃圾邮件用户](/_images/spam-user-with-Gravatar.webp)
 人类垃圾邮件发送者很可能会做下面列出的所有事情，也可能会做一些普通垃圾邮件机器人会做的事情。
 
 - 通过大多数垃圾邮件检查。
@@ -54,7 +55,7 @@ source:
 
 ### [处理垃圾邮件的内置工具](#inbuilt-tools-to-handle-spam)
 
-![内置垃圾邮件控制](images/forum-user-settings.webp)
+![内置垃圾邮件控制](/_images/forum-user-settings.webp)
 所有这些设置都应该在 WordPress 后端的Settings > Forums 中。
 编辑时间
 bbPress 允许用户编辑自己的话题和回复。这对于修复轻微的错别字非常有用，不幸的是，它也让一些垃圾邮件发送者有机会先写一个友好的回复，然后再编辑它以链接回垃圾邮件发送者的网站。
@@ -63,7 +64,7 @@ bbPress 允许用户编辑自己的话题和回复。这对于修复轻微的错
 节流时间或洪水控制是单个作者能够发布所需的时间量。这是为了避免用户在短时间内多次发帖，并有助于避免垃圾邮件程序的滥用。
 默认设置为 10 秒就可以了。将此设置调高会更好，但请确保它不会惹恼您的用户。
 Akismet 集成
-![akismet 集成](images/akismet-integration-e1430848182485.webp)
+![akismet 集成](/_images/akismet-integration-e1430848182485.webp)
 bbPress 与 Akismet 完全集成。Akismet 在发布之前扫描 bbPress 话题或回复，以查看它是垃圾邮件还是非垃圾邮件（不是垃圾邮件），它的扫描服务运行数百次测试，并将帖子标记为垃圾邮件。如果它确实捕获了垃圾邮件话题，您将在 WordPress 后端垃圾邮件下的话题部分看到它，以及相同的回复过程。
 使用 WordPress 评论审核设置
 没有多少人知道这一点，但您可以使用 WordPress 的 bbPress 评论审核和黑名单设置。您可以在[审核和黑名单](/moderation-and-blacklisting/) 指南中找到更多相关信息。
@@ -71,7 +72,7 @@ bbPress 与 Akismet 完全集成。Akismet 在发布之前扫描 bbPress 话题�
 
 ### [话题和回复表单保护](#topic-and-reply-form-protection)
 
-![带有 reCAPTCHA 的匿名帖子表单](images/Anonymous-post-form-with-reCAPTCHA.webp)
+![带有 reCAPTCHA 的匿名帖子表单](/_images/Anonymous-post-form-with-reCAPTCHA.webp)
 阻止垃圾帖子出现在您的论坛上的一种好方法是对该话题进行某种保护，并在您的论坛中回复创建表单。有很多像 Akismet 这样的插件与 bbPress 集成，以帮助阻止垃圾邮件发送者发布任何乱七八糟的东西。如果您在您的网站上启用了匿名发布，那么在话题和回复表单上针对垃圾邮件发送者提供某种保护特别有用。启用此功能将允许任何人在您的 bbPress 论坛上发帖，甚至无需在您的网站上注册，启用匿名发帖会让垃圾邮件因此而肆虐。如果您确实想使用匿名发帖，建议您保护话题和回复表单免受垃圾邮件的影响。
 查看 WordPress.org 主页下面列出的任何插件，了解有关设置的更多信息。
 使用验证码
@@ -90,7 +91,7 @@ bbPress 与 Akismet 完全集成。Akismet 在发布之前扫描 bbPress 话题�
 
 ### [注册垃圾邮件](#registration-spam)
 
-![wordpress 注册表单](images/wordpress-registration-form.webp)
+![wordpress 注册表单](/_images/wordpress-registration-form.webp)
 确保您的站点注册表上有某种垃圾邮件保护措施，因为这是 bbPress 站点的访问点。让它成为注册蜜罐、验证码、问题和 IP 黑名单数据库，以阻止垃圾邮件发送者访问您的站点。
 如果您安装了 BuddyPress，还可以查看[他们的指南，](https://codex.buddypress.org/getting-started/guides/preventing-spammer-registration/)了解一些与 BuddyPress 的注册过程和表单一起使用的插件。
 查看 WordPress.org 主页下面列出的任何插件，了解有关设置的更多信息。

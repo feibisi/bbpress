@@ -5,6 +5,7 @@ post_name: creating-content
 lang: zh
 taxonomy:
   category: [bbpress]
+  post_tag: [bbp-start]
 source:
   blog_id: 4
   post_id: 30
@@ -12,7 +13,7 @@ source:
 ---
 
 bbPress 在 WordPress 后端创建了三个新菜单项来管理您的三种[自定义文章类型](https://codex.wordpress.org/Post_Types#Custom_Post_Types)。它们是：
-![](images/Screenshot2021-12-25-16.45.04.webp)
+![](/_images/Screenshot2021-12-25-16.45.04.webp)
 
 - 论坛- 包含在论坛中创建的所有话题和回复。
 - 话题- 话题是在论坛中创建的，它们是正在讨论的话题。
@@ -26,7 +27,7 @@ bbPress 在 WordPress 后端创建了三个新菜单项来管理您的三种[自
 
 1. 导航到论坛 > 新论坛。
 2. 为您的论坛命名。
-3. 可选：您可以在描述区域添加文本来描述您的特定论坛。![出现在论坛管理屏幕上的正文](images/gettingstarted-supportforumtext.webp)
+3. 可选：您可以在描述区域添加文本来描述您的特定论坛。![出现在论坛管理屏幕上的正文](/_images/gettingstarted-supportforumtext.webp)
 4. 调整任何其他论坛属性。
 
 类型：选择是创建论坛还是类别。
@@ -53,20 +54,20 @@ bbPress 在 WordPress 后端创建了三个新菜单项来管理您的三种[自
 ### [从前端添加话题](#adding-a-topic-from-the-front-end)
 
 在前端导航到您的论坛。如果您刚刚设置了您的论坛，它将没有话题。
-![没有任何话题的论坛图片](images/gettingstarted-addtopic1.webp)
+![没有任何话题的论坛图片](/_images/gettingstarted-addtopic1.webp)
 为您的话题命名并为其添加一些内容。
-![添加了内容的前端 bbPress 话题字段。 话题标题、文章类型和订阅按钮高亮显示](images/createnewtopic.webp)
+![添加了内容的前端 bbPress 话题字段。 话题标题、文章类型和订阅按钮高亮显示](/_images/createnewtopic.webp)
 您可以添加用于组织话题的标签，并且可以使帖子具有粘性或超级粘性。
 粘性- 帖子将粘在其所在论坛的顶部。
 超级粘性- 帖子将粘在所有论坛的顶部。
 您还可以选择通过电子邮件订阅回复。
 发布话题后，它将出现在您的论坛上。
-![添加到前端的话题](images/gettingstarted-topicadded.webp)
+![添加到前端的话题](/_images/gettingstarted-topicadded.webp)
 
 ### [从 WordPress 后端添加话题](#adding-a-topic-from-the-wordpress-backend)
 
 要从 WordPress 后端添加话题，
-![WordPress 管理屏幕上的话题编辑屏幕](images/gettingstarted-backendaddpost.webp)
+![WordPress 管理屏幕上的话题编辑屏幕](/_images/gettingstarted-backendaddpost.webp)
 
 1. 导航到话题 > 新话题。
 2. 给您的话题一个标题和一些内容。
@@ -92,7 +93,7 @@ bbPress 在 WordPress 后端创建了三个新菜单项来管理您的三种[自
 从前端添加回复
 要从前端回复，请导航到您的论坛并单击您要回复的话题。
 添加您的回复。您还可以选择通过电子邮件接收后续回复的通知。
-![前端的回复框](images/gettingstarted-addreply.webp)
+![前端的回复框](/_images/gettingstarted-addreply.webp)
 添加回复后，您会在回复 > 所有回复中看到它已添加到 WordPress 后端
 添加来自 WordPress 后端的回复
 要添加来自 WordPress 后端的回复，
@@ -101,7 +102,7 @@ bbPress 在 WordPress 后端创建了三个新菜单项来管理您的三种[自
 2. 给您的话题一个标题和一些内容。
 3. 调整任何其他回复属性。
 
-![WordPress 管理屏幕中的回复属性](images/replyattributes.webp)
+![WordPress 管理屏幕中的回复属性](/_images/replyattributes.webp)
 论坛：选择要回复的论坛。
 话题：输入您希望回复的话题的 ID。
 回复：如果您启用了线程回复，这很有用。您输入要在其下发送的回复的 ID。

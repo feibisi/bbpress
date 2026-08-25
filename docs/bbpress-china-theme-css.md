@@ -14,12 +14,12 @@ source:
 bbPress 是一款简单易用的 WordPress 论坛程序，默认界面并不是很友好，需要主题兼容不然会非常简陋，这是薇晓朵制作分享的一款 bbPress 中文主题以替代其默认界面。
 如何使用和添加代码：
 1、首先请确保你已经安装了 bbPress 论坛，可在 WordPress 网站后台直接搜索：bbPress 进行安装。
-![](images/Screenshot-2017-11-17-15.15.22.webp)
+![](/_images/Screenshot-2017-11-17-15.15.22.webp)
 
 ---
 
 2、请打开网站前台编辑器的【自定义】，复制下方美化代码到自定义 css 中。
-![](images/2017-11-17-15-12-10.gif)
+![](/_images/2017-11-17-15-12-10.gif)
 
 ---
 
@@ -200,5 +200,5 @@ background: #fff;
 ---
 
 比如我们做的几款中文主题集成的样式：
-![](images/storefront-ss-7-1.webp)
-![](images/Hueman-ss-7.webp)
+![](/_images/storefront-ss-7-1.webp)
+![](/_images/Hueman-ss-7.webp)

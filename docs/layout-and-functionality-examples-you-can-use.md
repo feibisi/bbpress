@@ -18,8 +18,8 @@ source:
 
 ### [1.更改论坛列表的显示方式](#1-change-how-the-forum-list-displays)
 
-默认看起来像： ![论坛2](images/forum2.webp)
-改成 ： ![论坛3](images/forum3.webp)
+默认看起来像： ![论坛2](/_images/forum2.webp)
+改成 ： ![论坛3](/_images/forum3.webp)
 默认情况下，此元素使用 CSS 设置样式。
 
 ```
@@ -44,9 +44,9 @@ function custom_bbp_sub_forum_list() {
 ### [2.从论坛列表中删除话题/回复计数](#2-remove-the-topicreply-count-from-the-forum-list)
 
 默认 ：
-![论坛c](images/forumc.webp)
+![论坛c](/_images/forumc.webp)
 更改为：
-![论坛b](images/forumb.webp)
+![论坛b](/_images/forumb.webp)
 您可以更改 loop.single.forum.php，如 https://codex.bbpress.org/step-by-step-guide-to-setting-up-a-bbpress-forum-part-3/ 所示或者
 将以下内容放入您的子主题functions.php 文件中。
 
@@ -64,12 +64,12 @@ add_filter('bbp_before_list_forums_parse_args', 'remove_counts' );
 
 虽然您可以单击 bbPress 登录小工具中显示的头像或您的用户名转到您的个人资料，然后从那里单击编辑链接来编辑您的个人资料，但这对您的某些用户来说可能并不那么明显。
 安装这个插件[RKK Login Widget](https://gist.github.com/robkk/f558f4abe867ef7b9952)，它几乎与默认的 bbPress Login Widget 完全相同。只需将 (RKK) 登录小工具放置到侧边栏之一，您的登录小工具就会与此类似。
-![论坛](images/forumd.webp)
+![论坛](/_images/forumd.webp)
 根据需要自定义或编辑插件。
 
 ### [4. 关闭或更改面包屑](#4-turning-off-or-changing-breadcrumbs)
 
-![](images/forume.webp)
+![](/_images/forume.webp)
 要删除论坛中的面包屑，请确保将此功能添加到子主题或功能插件中的 functions.php 文件中。
 
 ```
@@ -96,9 +96,9 @@ add_filter('bbp_before_get_breadcrumb_parse_args', 'mycustom_breadcrumb_options'
 
 如果您想删除搜索栏（有些人喜欢要么排除它，要么把它放在侧边栏中）
 默认情况下，搜索表单将显示如下。
-![论坛](images/forumh.webp)
+![论坛](/_images/forumh.webp)
 这是之后的结果。
-![论坛](images/forumg.webp)
+![论坛](/_images/forumg.webp)
 然后只需更改仪表盘>设置>论坛功能中的设置并取消勾选
 Allow forumwide search。
 
@@ -231,7 +231,7 @@ wp\_logout\_url()把这个改成这个wp\_logout\_url( site\_url('/logout/') )
 
 这非常好，说明将其添加到菜单中，并根据需要使用登录/注销。
 登录看起来像这样
-![模态登录3](images/modal-login3-300x144.webp)
+![模态登录3](/_images/modal-login3-300x144.webp)
 有不同的风格可供选择，您可以设计自己的风格。
 说明可以在这里找到
 
@@ -283,9 +283,9 @@ add_filter( 'bbp_get_dynamic_roles', 'add_custom_role', 1 );
 
 如果您创建一个带有描述的论坛，这只会显示在主索引页面上，而不显示在类别页面或论坛页面上
 从：
-![说明1](images/description1-300x106.webp)
+![说明1](/_images/description1-300x106.webp)
 到 ：
-![说明2](images/description2-300x119.webp)
+![说明2](/_images/description2-300x119.webp)
 将以下内容添加到您的函数文件中。
 
 ```
@@ -311,9 +311,9 @@ add_action( 'bbp_template_before_single_forum' , 'rw_singleforum_description');
 ### [17. 将订阅移至右侧](#17-move-subscribe-to-right-hand-side)
 
 改变
-![订阅1](images/subscribe12-300x77.webp)
+![订阅1](/_images/subscribe12-300x77.webp)
 到：
-![订阅2](images/subscribe21-300x75.webp)
+![订阅2](/_images/subscribe21-300x75.webp)
 将以下内容放入您的 style.css
 
 ```
@@ -672,7 +672,7 @@ add_action( 'widgets_init', 'rkk_widgets_init' );
 现在转到仪表盘>外观>小工具，现在您将看到一个名为“bbPress Sidebar”的新侧边栏。
 添加 bbPress 小工具后，它应该看起来像这样。
 
-![论坛1](images/forum1.webp)
+![论坛1](/_images/forum1.webp)
 
 带插件
 使用以下任何插件都可以获得特定于 bbPress 的侧边栏。如果您认为您发现的内容不够好，我相信还有更多插件可以执行此类功能。

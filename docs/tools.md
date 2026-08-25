@@ -12,7 +12,7 @@ source:
 ---
 
 在WordPress 后端的 工具 > 论坛部分，它应该显示三种不同工具中的每一种的选项卡，用于修复、删除论坛或从其他论坛软件导入论坛数据。
-![论坛工具](images/forum-tools.webp)
+![论坛工具](/_images/forum-tools.webp)
 
 ### [修复论坛](/tools/repair-forums/ "您需要了解的有关 bbPress 入门的所有信息")
 

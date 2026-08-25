@@ -5,6 +5,7 @@ post_name: favorites
 lang: zh
 taxonomy:
   category: [bbpress]
+  post_tag: [bbp-moderate]
 source:
   blog_id: 4
   post_id: 161
@@ -21,7 +22,7 @@ source:
 
 要使用户收藏某个话题，他们需要单击通常位于话题顶部的“收藏”链接。
  
-![最喜欢的](images/Favorite1.webp)
+![最喜欢的](/_images/Favorite1.webp)
  
 当用户单击收藏夹链接时，它现在将使用 ajax 自动显示为 收藏夹。收藏后，该话题现在也将显示在用户论坛个人资料收藏夹部分。
 
@@ -29,4 +30,4 @@ source:
 
 在收藏夹部分，用户可以查看或管理他们标记为收藏的所有话题。如果用户要从他们个人资料的收藏夹部分中删除任何话题，他们需要单击每个话题附近的红色 X，或者他们也可以从此列表中转到该话题，然后再次单击“已收藏”链接，然后该话题将从他们的收藏夹中删除。
  
-![收藏夹部分](images/favorites-section.webp)
+![收藏夹部分](/_images/favorites-section.webp)
