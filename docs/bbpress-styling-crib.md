@@ -15,7 +15,7 @@ source:
 
 ### [设计您的论坛](#styling-your-forums)
 
-这些可以添加到您的 css 中，或添加到 bbpress.css 的自定义版本中 – 请参阅[设置 bbpress 论坛的分步指南第 2 部分](/step-by-step-guide-to-setting-up-a-bbpress-forum-part-2/)了解更多信息。
+这些可以添加到您的 css 中，或添加到 bbpress.css 的自定义版本中 – 请参阅[设置 bbpress 论坛的分步指南第 2 部分](/document/bbpress/step-by-step-guide-to-setting-up-a-bbpress-forum-part-2/)了解更多信息。
 ![论坛婴儿床](/_images/forum-crib.webp)
 ![论坛](/_images/foruma.webp)
 bbPress 论坛中的所有内容

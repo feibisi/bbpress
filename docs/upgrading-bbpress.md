@@ -18,4 +18,4 @@ bbPress 不时创建需要模板和标记调整的新功能，添加新的 JavaS
 ### bbPress 2.6 主题更新
 
 - 模板更新指南
-- [收藏夹和订阅](/document/favorites-subscriptions/)
+- [收藏夹和订阅](/document/bbpress/favorites-subscriptions/)

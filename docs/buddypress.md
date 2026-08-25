@@ -12,4 +12,4 @@ source:
 ---
 
 将 bbPress 和 BuddyPress 社交系统搭配使用，为用户创建关联群组论坛。
-[使用 bbPress 论坛和 BuddyPress 群组论坛](/document/using-bbpress-forums-with-buddypress-group-forums/)
+[使用 bbPress 论坛和 BuddyPress 群组论坛](/document/bbpress/using-bbpress-forums-with-buddypress-group-forums/)

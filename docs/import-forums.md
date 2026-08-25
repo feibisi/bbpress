@@ -13,22 +13,22 @@ source:
 
 ### [支持平台](#supported-platforms)
 
-- [Advanced Electron Forum v1.x](/document/aef)（bbPress 2.5 的 beta 测试见[#2384](https://bbpress.trac.wordpress.org/ticket/2384)）
-- [bbPress v1.1/v1.2](/document/bbpress)（这也包括 BuddyPress 组论坛）
-- [Drupal v7.x](/document/drupal)（bbPress 2.5 的 beta 测试见[#2375](https://bbpress.trac.wordpress.org/ticket/2375)）
-- [FluxBB v1.5.x](/document/fluxbb)（bbPress 2.5 的 beta 测试见[#2383](https://bbpress.trac.wordpress.org/ticket/2383)）
-- [Invision](/document/invision)
-- [Mingle](/document/mingle)
-- [MyBB v1.6.x](/document/mybb)（bbPress 2.5 的 beta 测试见[#2378](https://bbpress.trac.wordpress.org/ticket/2375)）
-- [Phorum v5.2.19](/document/phorum)（bbPress 2.5 的 beta 测试见[#2382](https://bbpress.trac.wordpress.org/ticket/2382)）
-- [phpBB v.3.x](/document/phpbb)
-- [PunBB v1.4.x](/document/punbb)（bbPress 2.5 的 beta 测试见[#2379](https://bbpress.trac.wordpress.org/ticket/2379)）
-- [Simple Press v5](/document/simplepress)
-- [Simple Machines Forum v2.0.x](/document/smf)（bbPress 2.5 的 beta 测试见[#2380](https://bbpress.trac.wordpress.org/ticket/2380)）
-- [Vanilla v2.x](/document/vanilla)
-- [vBulletin v4.x](/document/vbulletin)
+- [Advanced Electron Forum v1.x](/document/bbpress/aef/)（bbPress 2.5 的 beta 测试见[#2384](https://bbpress.trac.wordpress.org/ticket/2384)）
+- [bbPress v1.1/v1.2](/document/bbpress/)（这也包括 BuddyPress 组论坛）
+- [Drupal v7.x](/document/bbpress/drupal/)（bbPress 2.5 的 beta 测试见[#2375](https://bbpress.trac.wordpress.org/ticket/2375)）
+- [FluxBB v1.5.x](/document/bbpress/fluxbb/)（bbPress 2.5 的 beta 测试见[#2383](https://bbpress.trac.wordpress.org/ticket/2383)）
+- [Invision](/document/bbpress/invision/)
+- [Mingle](/document/bbpress/mingle/)
+- [MyBB v1.6.x](/document/bbpress/mybb/)（bbPress 2.5 的 beta 测试见[#2378](https://bbpress.trac.wordpress.org/ticket/2375)）
+- [Phorum v5.2.19](/document/bbpress/phorum/)（bbPress 2.5 的 beta 测试见[#2382](https://bbpress.trac.wordpress.org/ticket/2382)）
+- [phpBB v.3.x](/document/bbpress/phpbb/)
+- [PunBB v1.4.x](/document/bbpress/punbb/)（bbPress 2.5 的 beta 测试见[#2379](https://bbpress.trac.wordpress.org/ticket/2379)）
+- [Simple Press v5](/document/bbpress/simplepress/)
+- [Simple Machines Forum v2.0.x](/document/bbpress/smf/)（bbPress 2.5 的 beta 测试见[#2380](https://bbpress.trac.wordpress.org/ticket/2380)）
+- [Vanilla v2.x](/document/bbpress/vanilla/)
+- [vBulletin v4.x](/document/bbpress/vbulletin/)
 
-您还可以使用包含在/bbpress/includes/admin/converters/Example.php 中的Example.php来创建您自己的[自定义导入器](/document/custom-import/)，以设置从任何 SQL 数据库的导入。
+您还可以使用包含在/bbpress/includes/admin/converters/Example.php 中的Example.php来创建您自己的[自定义导入器](/document/bbpress/custom-import/)，以设置从任何 SQL 数据库的导入。
 
 ### [到达那里](#getting-there)
 
@@ -62,12 +62,12 @@ source:
 
 ### [完成导入](#finalizing-the-import)
 
-- 导入您的论坛/话题/回复后，您需要通过[“修复论坛”](/document/repair-forums/ "维修论坛")工具更新论坛、话题、回复和话题标签与用户之间的关系，并单独运行这些工具中的每一个，因为在运行这些工具时会产生大量的数据库开销.
+- 导入您的论坛/话题/回复后，您需要通过[“修复论坛”](/document/bbpress/repair-forums/ "维修论坛")工具更新论坛、话题、回复和话题标签与用户之间的关系，并单独运行这些工具中的每一个，因为在运行这些工具时会产生大量的数据库开销.
 
 ### [故障排除](#troubleshooting)
 
 - 有关每个进口商的特定常见问题解答和已知问题，请访问该进口商法典页面。
-- 如果在导入话题或回复时导入“卡住”，请参阅[导入疑难解答](/document/import-troubleshooting)
+- 如果在导入话题或回复时导入“卡住”，请参阅[导入疑难解答](/document/bbpress/import-troubleshooting/)
 
 ### [重定向旧 URL](#redirecting-your-old-urls)
 

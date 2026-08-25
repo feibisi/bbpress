@@ -277,7 +277,7 @@ add_filter( 'bbp_get_dynamic_roles', 'add_custom_role', 1 );
 
 ### [15. 在 bbpress 角色中添加自定义功能](#15-adding-custom-capabilities-within-bbpress-roles)
 
- [添加自定义功能](/custom-capabilities/) 
+ [添加自定义功能](/document/bbpress/custom-capabilities/) 
 
 ### [16. 论坛页面添加说明](#16-adding-description-to-forum-pages)
 

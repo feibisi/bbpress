@@ -13,7 +13,7 @@ source:
 
 ### [特定论坛导入](#specific-forum-imports)
 
-确保您还检查每个论坛导入器法典页面以了解与每个论坛相关的特定问题，列表可在[此处](/document/custom-import/)找到。
+确保您还检查每个论坛导入器法典页面以了解与每个论坛相关的特定问题，列表可在[此处](/document/bbpress/custom-import/)找到。
 
 ### [导入被“卡住”](#the-import-gets-%e2%80%98stuck%e2%80%99)
 

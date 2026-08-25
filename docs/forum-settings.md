@@ -21,7 +21,7 @@ source:
 匿名发布
 任何站点访问者都可以发布新话题或回复，而无需登录您的站点。他们仍然需要输入姓名和电子邮件才能发布，但不需要创建用户名或密码，也不会显示在 WordPress 用户列表中。
 自动角色
-选择bbPress论坛成员默认分配的角色，角色有Keymaster、Moderator、Participant（默认）、Spectator和Blocked。有关这些角色分配的权限的完整详细信息，请参阅[用户角色和功能](/document/bbpress-user-roles-and-capabilities/ "用户角色和能力")。
+选择bbPress论坛成员默认分配的角色，角色有Keymaster、Moderator、Participant（默认）、Spectator和Blocked。有关这些角色分配的权限的完整详细信息，请参阅[用户角色和功能](/document/bbpress/bbpress-user-roles-and-capabilities/ "用户角色和能力")。
 
 ### [论坛特色](#forum-features)
 

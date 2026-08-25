@@ -22,4 +22,4 @@ source:
 
 将“设置”>“论坛”中的论坛搜索自定义 slug 编辑为不带空格的内容，只需将空格替换为例如破折号，例如 (forum-search)。
 如果您在论坛中禁用了论坛 root slug，请使其不再出现问题，或者将论坛搜索 slug 更改为默认 slug“搜索”以外的其他内容。
-如果问题仍然存在，请确保您已完成此处所述的插件和话题问题解决方案： [故障排除](/document/troubleshooting/)
+如果问题仍然存在，请确保您已完成此处所述的插件和话题问题解决方案： [故障排除](/document/bbpress/troubleshooting/)

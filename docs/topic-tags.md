@@ -26,7 +26,7 @@ source:
 ![带有标签显示的话题](/_images/topic-with-tags-display.webp)
 单击这些标签链接中的任何一个后，您将看到具有相同话题标签的任何话题。
 ![话题标签列表](/_images/topic-tag-list.webp)
-具有后台管理权限的用户也可以从那里的话题创建屏幕创建话题和添加话题标签。您可以在创建内容指南的[创建话题](/document/configuring-bbpress/creating-content/#creating%c2%a0a-topic)部分了解这一点。
+具有后台管理权限的用户也可以从那里的话题创建屏幕创建话题和添加话题标签。您可以在创建内容指南的[创建话题](/document/bbpress/creating-content/#creating%c2%a0a-topic)部分了解这一点。
 
 ### [管理话题标签](#managing-topic-tags)
 

@@ -67,7 +67,7 @@ Akismet 集成
 ![akismet 集成](/_images/akismet-integration-e1430848182485.webp)
 bbPress 与 Akismet 完全集成。Akismet 在发布之前扫描 bbPress 话题或回复，以查看它是垃圾邮件还是非垃圾邮件（不是垃圾邮件），它的扫描服务运行数百次测试，并将帖子标记为垃圾邮件。如果它确实捕获了垃圾邮件话题，您将在 WordPress 后端垃圾邮件下的话题部分看到它，以及相同的回复过程。
 使用 WordPress 评论审核设置
-没有多少人知道这一点，但您可以使用 WordPress 的 bbPress 评论审核和黑名单设置。您可以在[审核和黑名单](/moderation-and-blacklisting/) 指南中找到更多相关信息。
+没有多少人知道这一点，但您可以使用 WordPress 的 bbPress 评论审核和黑名单设置。您可以在[审核和黑名单](/document/bbpress/moderation-and-blacklisting/) 指南中找到更多相关信息。
 如果您需要将精选的单词列表添加到评论黑名单中，您可以[在 Github 上](https://github.com/splorp/wordpress-comment-blacklist/)找到一个[列表，](https://github.com/splorp/wordpress-comment-blacklist/) 然后您可以从那里复制您需要的任何文件中的文本。在页面上，您可以在下面阅读[如何](https://github.com/splorp/wordpress-comment-blacklist/#how-do-i-use-it)手动[使用它](https://github.com/splorp/wordpress-comment-blacklist/#how-do-i-use-it)或安装诸如评论黑名单管理器之类的插件，该插件会自动将策划列表更新到您的评论黑名单部分。
 
 ### [话题和回复表单保护](#topic-and-reply-form-protection)

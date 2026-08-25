@@ -25,7 +25,7 @@ bbPress 有许多模板可以改变论坛的显示方式，您可以更改这些
 等等。
 如果您需要更改 bbpress 模板，那么您真的应该在子主题中执行此操作，否则主题升级将覆盖它。
 有关如何设置子主题的信息，请参阅
-https://bbpress.wpwenku.com/document/functions-files-and-child-themes-explained
+[子主题和函数文件说明](/document/bbpress/functions-files-and-child-themes-explained/)
 更改模板
 在您的主题中创建一个 bbPress 文件夹：
 `wp-content/%yourthemename%/bbpress`

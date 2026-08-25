@@ -18,10 +18,10 @@ source:
 
 这些指南将帮助您配置和设置一切。
 
-### [创建内容](/document/creating-content/)
+### [创建内容](/document/bbpress/creating-content/)
 
 这将帮助您为 bbPress 站点创建论坛、话题和回复等内容。
 
-### [论坛设置](/document/forum-settings/)
+### [论坛设置](/document/bbpress/forum-settings/)
 
 这将帮助您为论坛配置 bbPress 设置。

@@ -19,10 +19,10 @@ bbPress 可以很好地与许多主题和插件配合使用，但无法测试它
 
 这些是您需要检查的常见问题。
 
-- [空白页](/document/blank-pages/)
-- [导航链接返回 404s 错误](/document/navigation-links-return-404s-errors/)
-- [bbp\_setup\_current\_user 被错误调用](/document/bbp_setup_current_user/)
-- [搜索重定向到首页](/document/search-redirects-to-front-page/)
+- [空白页](/document/bbpress/blank-pages/)
+- [导航链接返回 404s 错误](/document/bbpress/navigation-links-return-404s-errors/)
+- [bbp\_setup\_current\_user 被错误调用](/document/bbpress/bbp_setup_current_user/)
+- [搜索重定向到首页](/document/bbpress/search-redirects-to-front-page/)
 
 ### [插件](#plugins)
 
